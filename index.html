@@ -1,0 +1,50 @@
+<style>
+  /* Style untuk Divider Minimalist */
+  .section-anchor-divider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px; /* Jarak ke Iframe di bawahnya */
+    
+    /* PENTING: Ini agar pas di-scroll, dividernya gak ketutup tombol navigasi di atas */
+    scroll-margin-top: 90px; 
+  }
+
+  /* Garis Lurus */
+  .divider-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #e0e0e0; /* Warna garis abu muda */
+    margin-right: 15px;
+  }
+
+  /* Teks See More */
+  .divider-link {
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.2s;
+    white-space: nowrap;
+  }
+
+  .divider-link:hover {
+    color: #141e30; /* Warna berubah saat di-hover */
+  }
+</style>
+
+<div id="section-remote" class="section-anchor-divider">
+  <div class="divider-line"></div>
+  
+  <a href="https://haanmadee.github.io/WORKSHEET_AJENG/" target="_blank" class="divider-link">
+    See more 
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="5" y1="12" x2="19" y2="12"></line>
+      <polyline points="12 5 19 12 12 19"></polyline>
+    </svg>
+  </a>
+</div>
